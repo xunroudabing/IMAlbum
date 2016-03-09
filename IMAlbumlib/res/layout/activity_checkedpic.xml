@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/cmp_customer_actionbar" />
+
+    <LinearLayout
+        android:id="@+id/ll_checkbtn"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#21282C"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/checkmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_unselected" />
+        
+        
+        <TextView 
+            android:text="@string/album_pic_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

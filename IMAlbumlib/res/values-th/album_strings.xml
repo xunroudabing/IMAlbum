@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">อัลบัม</string>
+    <string name="folder_all">รูปภาพทั้งหมด</string>
+    <string name="preview">การแสดงภาพตัวอย่าง</string>
+    <string name="msg_no_camera">ระบบไม่มีกล้อง</string>
+    <string name="msg_amount_limit">หนึ่งสามารถส่งภาพ 9</string>
+    <string name="album_compile">เสร็จสมบูรณ์</string>
+    <string name="album_crop_null_error">รูปนี้ไม่อาจจับภาพหน้าจอ</string>
+    <string name="album_page">ใบ</string>
+    <string name="album_all_pic">รูปภาพทั้งหมด</string>
+    <string name="album_crop_str">จับภาพหน้าจอ </string>
+    <string name="album_pic_select">select</string>
+    <string name="album_pic_str">รูปภาพ</string>
+    <string name="album_takephoto">ถ่ายรูป</string>
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+</resources>

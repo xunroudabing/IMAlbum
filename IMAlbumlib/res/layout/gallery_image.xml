@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.opensource.TiTouchImageView.ImageDetailViewFrameLayOut xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shop_gallery_relayout"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent" >
+
+</com.opensource.TiTouchImageView.ImageDetailViewFrameLayOut>

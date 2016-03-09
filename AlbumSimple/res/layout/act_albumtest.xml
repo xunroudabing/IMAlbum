@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_takephoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照截图" />
+
+    <TextView
+        android:id="@+id/tv_selectphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+    <TextView
+        android:id="@+id/tv_selectandcrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择图片并截图" />
+    
+    <ImageView
+        android:id="@+id/iv_showresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

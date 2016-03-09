@@ -1,0 +1,33 @@
+<resources>
+
+     <string name="app_name">相册</string>
+    <string name="folder_all">全部图片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">系统没有照相机</string>
+    <string name="msg_amount_limit">一次最多可发送9张图片</string>
+    <string name="album_compile">完成</string>
+    <string name="album_crop_null_error">这张图片无法截取</string>
+    <string name="album_page">张</string>
+    <string name="album_all_pic">所有图片</string>
+    <string name="album_crop_str">截图</string>
+    <string name="album_pic_str">图片</string>
+    <string name="album_pic_select">选择</string>
+    <string name="album_takephoto">拍摄照片</string>
+	
+    
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+</resources>
