@@ -51,6 +51,7 @@ public class IntentUtils {
 	 * @description：
 	 * @date 2015年4月28日 上午10:50:16
 	 */
+
 	public static void jumpToSelectPics(Activity mContext, boolean isShowCamera, int selectMaxCount, int selectMode) {
 		Intent intent = new Intent(mContext, MultiImageSelectorActivity.class);
 
@@ -76,6 +77,7 @@ public class IntentUtils {
 	 * @description：
 	 * @date 2015年4月28日 上午10:50:16
 	 */
+
 	public static void jumpToSelectPics(Activity mContext, boolean isShowCamera, int selectMaxCount, int selectMode,
 			ArrayList<String> hasSelectList) {
 		Intent intent = new Intent(mContext, MultiImageSelectorActivity.class);
@@ -116,6 +118,7 @@ public class IntentUtils {
 	 * @param <T>
 	 * @date 2015年5月5日 下午12:03:59
 	 */
+
 	public static <T extends ImagePagerUri> void jumpToPreViewImage(Activity mContext, ArrayList<T> mImageList,
 			String mPhotoCheck) {
 		Intent intent = new Intent(mContext, ImageDetailAct.class);
@@ -132,6 +135,7 @@ public class IntentUtils {
 	 * @param <T>
 	 * @date 2015年5月5日 下午12:03:59
 	 */
+
 	public static <T extends ImagePagerUri> void jumpToPreViewImage(Activity mContext, ArrayList<T> mImageList,
 			int imageDetailCheckPositon) {
 		Intent intent = new Intent(mContext, ImageDetailAct.class);
@@ -152,6 +156,7 @@ public class IntentUtils {
 	 * @author zhangjianlin (990996641)
 	 * @date 2015年6月11日 下午4:25:00
 	 */
+
 	public static void jumpToSelecAndCropImg(Activity mContext, String picResultPath, int scaleW, int scaleH,
 			int limtWidth, int limitHight, boolean isScaleImg) {
 		Intent intent = new Intent(mContext, MultiImageSelectorActivity.class);
@@ -186,6 +191,7 @@ public class IntentUtils {
 	 * @param isEableMatrix 是否按照 limtWidth、limitHight的比例进行放大缩小
 	 * @description：
 	 */
+
 	public static void jumpToCropImage(Activity mContext, String orgUri, String savePath, int scaleW, int scaleH,
 			int limtWidth, int limitHight, boolean isEableMatrix) {
 		Intent intent = new Intent(mContext, CropImageAct.class);
@@ -228,3 +234,10 @@ public class IntentUtils {
 		mContext.startActivityForResult(intent, ImageDetailCheckPicsAct.REQUEST_CHECKFILE);
 	}
 }
+
+
+
+
+
+
+后续扩展及内部讲解将会在  http://blog.csdn.net/lilin9105 博客上写出
