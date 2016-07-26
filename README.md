@@ -240,4 +240,4 @@ public class IntentUtils {
 
 
 
-后续扩展及内部讲解将会在  http://blog.csdn.net/lilin9105 博客上写出
+后续扩展及内部讲解将会在  http://www.jianshu.com/p/0ae765b541c1 博客上写出
