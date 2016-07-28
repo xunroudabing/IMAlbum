@@ -1,3 +1,8 @@
+###文章讲解地址
+ [android微信图片选择器](http://www.jianshu.com/p/b5ccdd43f220)
+ [android微信图片浏览框架设计](http://www.jianshu.com/p/0ae765b541c1)
+
+
 # IMAlbum
 一个完整的支持单选多选图片、截图功能、可扩展业务的图片滑动预览图库
 
@@ -239,5 +244,3 @@ public class IntentUtils {
 
 
 
-
-后续扩展及内部讲解将会在  http://www.jianshu.com/p/0ae765b541c1 博客上写出
